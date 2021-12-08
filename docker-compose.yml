@@ -111,8 +111,8 @@ services:
     expose:
       - 27017
     volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - /etc/timezone:/etc/timezone:ro
+      # - /etc/localtime:/etc/localtime:ro
+      # - /etc/timezone:/etc/timezone:ro
       - wekan-db:/data/db
       - wekan-db-dump:/dump
 
